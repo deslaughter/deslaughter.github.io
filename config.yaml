@@ -26,14 +26,18 @@ languages:
     weight: 1
 
 menu:
-  before: 
-    - name: About
-      url: /pages/about
-      weight: 1
+  # before: 
+  #   - name: About
+  #     url: /pages/about
+  #     weight: 1
+  after:
     - name: "Github"
       url: "https://github.com/deslaughter"
+      weight: 1
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/deslaughter/"
       weight: 2
-  # after:
+  
     
 
 params:
