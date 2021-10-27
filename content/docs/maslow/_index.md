@@ -14,14 +14,21 @@ The plans and source code for the Maslow CNC are available on the [MaslowCNC](ht
 
 ## Components
 
+The Maslow CNC has four major compontents: frame, sled, actuators, and controller. 
+
 ### Frame
 
-### Router Sled
+The frame consistes of a wood or metal structure that 
 
-### Chains & Motors
+- Holds the workpiece at an angle, typically 15&deg;, from vertical.
+- Provides mounting points for the chain drive servo motors above and outside the workspace.
 
-## Configuration
 
 
+### Sled
+
+### Actuators
+
+### Controller
 
 ## Challenges
