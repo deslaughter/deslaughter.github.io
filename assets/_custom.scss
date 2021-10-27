@@ -1,0 +1,33 @@
+// Enable automatic headline counters.
+// @import "plugins/numbered";
+
+// Count figure elements on the page and append a number to their figcaptions.
+body {
+    counter-reset: figure;
+}
+
+figcaption > p::before {
+    counter-increment: figure;
+    content: "Figure " counter(figure) ": ";
+}
+
+// Disable the Book theme's automatic counter on specific headlines, or on
+// entire sections.
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    &.headline--counterless,
+    .counterless & {
+        &::before {
+            display: none;
+        }
+    }
+}
+
+// Introductory paragraph.
+p.intro {
+    font-size: 1.3em;
+}
